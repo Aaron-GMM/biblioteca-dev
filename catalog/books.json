@@ -1,0 +1,2893 @@
+[
+  { "Repositoy-Name": "LivrosDev",
+    "livros": [
+                    {
+                      "title": "Algoritmos - Teoria e Prática",
+                      "author": "Thomas Cormen",
+                      "category": "Algoritmos e Estruturas de Dados",
+                      "path": "LivrosDev/Algoritmos - Teoria e Prática - Autor (Thomas Cormen).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "But How Do it Know - The Basic Principles of Computers for Everyone",
+                      "author": "J. Clark Scott",
+                      "category": "Algoritmos e Estruturas de Dados",
+                      "path": "LivrosDev/But How Do It Know - The Basic Principles of Computers for Everyone - Author (J. Clark Scott).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Entendendo Algoritmos - Um Guia Ilustrado Para Programadores e Outros Curiosos",
+                      "author": "Aditya Y. Bhargava",
+                      "category": "Algoritmos e Estruturas de Dados",
+                      "path": "LivrosDev/Entendendo Algoritmos - Um Guia Ilustrado Para Programadores e Outros Curiosos - Autor (Aditya Y. Bhargava).pdf",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Expressões Regulares - uma abordagem divertida",
+                      "author": "Aurelio Marinho",
+                      "category": "Algoritmos e Estruturas de Dados",
+                      "path": "LivrosDev/Expressões Regulares - uma abordagem divertida - Autor (Aurelio Marinho).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Introdução a data science - Algoritmos de machine learning e métodos de análise",
+                      "author": "Casa do Código",
+                      "category": "Algoritmos e Estruturas de Dados",
+                      "path": "LivrosDev/Introdução a data science - Algoritmos de machine learning e métodos de análise - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Arquitetura Limpa - O Guia do Artesão para Estrutura e Design de Software",
+                      "author": "Robert C. Martin",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Arquitetura Limpa - O Guia do Artesão para Estrutura e Design de Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Big Data - Técnicas e tecnologias para extração de valor dos dados",
+                      "author": "Casa do Código",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Big Data - Técnicas e tecnologias para extração de valor dos dados - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Business Intelligence - Implementar do jeito certo e a custo zero",
+                      "author": "Casa do Código",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Business Intelligence - Implementar do jeito certo e a custo zero - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Introdução à arquitetura de design de software",
+                      "author": "Paulo Silveira",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Introdução à arquitetura de design de software - Autor (Paulo Silveira).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Mergulho nos Padrões de Projeto",
+                      "author": "Alexander Shvets",
+                      "category": "Arquitetura de Software",
+                      "path": "https://refactoring.guru/pt-br/design-patterns/book",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Oauth 2.0 Proteja Suas Aplicações Com O Spring Security Oauth2",
+                      "author": "Casa do Código",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Oauth 2.0 Proteja Suas Aplicacoes Com O Spring Security Oauth2 - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Princípios de Design e Padrões de Projeto",
+                      "author": "Robert C. Martin",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Princípios de Design e Padrões de Projeto - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Refatoração - Aperfeiçoando o Design de Códigos Existentes",
+                      "author": "Martin Fowler",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Refatoração - Aperfeiçoando o Design de Códigos Existentes - Autor (Martin Fowler).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "SOA Aplicado - Integrando com web services e além",
+                      "author": "Casa do Código",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/SOA Aplicado - Integrando com web services e além - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "The Software Craftsman - Professionalism, Pragmatism, Pride",
+                      "author": "Sandro Mancuso",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/The Software Craftsman - Professionalism, Pragmatism, Pride - Autor (Sandro Mancuso).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Trabalho Eficaz com Código Legado",
+                      "author": "Michael C. Feathers",
+                      "category": "Arquitetura de Software",
+                      "path": "LivrosDev/Trabalho Eficaz com Código Legado - Autor (Michael C. Feathers).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "14 Hábitos de Desenvolvedores Altamente Produtivos",
+                      "author": "Zeno Rocha",
+                      "category": "Carreira e Habilidades",
+                      "path": "https://www.amazon.com.br/14-Hábitos-Desenvolvedores-Altamente-Produtivos-ebook/dp/B08BF7PZZX",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "A jornada do empreendedor - O herói da nossa Era",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/A jornada do empreendedor - O herói da nossa Era - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Apprenticeship Patterns - Guidance for the Aspiring Software Craftsman",
+                      "author": "Dave Hoover e Adewale Oshineye",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Apprenticeship Patterns - Guidance for the Aspiring Software Craftsman - Autor (Dave Hoover e Adewale Oshineye).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Começando com o Linux - Comandos, serviços e administração",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Começando com o Linux - Comandos, serviços e administração - Autor (Casa do Código).pdf",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Como mentir com estatística",
+                      "author": "Darrell-Heff",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Como mentir com estatística - Auto (Darrell-Heff).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Como ser um Programador Melhor - um Manual Para Programadores que se Importam com Código",
+                      "author": "Pete Goodliffe",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Como ser um Programador Melhor - um Manual Para Programadores que se Importam com Código - Autor (Pete Goodliffe).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Direto ao Ponto - Criando produtos de forma enxuta",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Direto ao Ponto - Criando produtos de forma enxuta - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Fragmentos de um programador - Artigos e insights da carreira de um profissional",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Fragmentos de um programador - Artigos e insights da carreira de um profissional - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Gestão de produtos - Como aumentar as chances de sucesso do seu software",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Gestão de produtos - Como aumentar as chances de sucesso do seu software - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Guia da Startup - Como Startups e Empresas Estabelecidas Podem Criar Produtos Web Rentáveis",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Guia da Startup - Como Startups e Empresas Estabelecidas Podem Criar Produtos Web Rentáveis - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Guia do Mestre Programador - Pensando como pirata, evoluindo como jedi",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Guia do Mestre Programador - Pensando como pirata, evoluindo como jedi - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Learning 3.0 - Como os profissionais criativos aprendem",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Learning 3.0 - Como os profissionais criativos aprendem - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "O Programador Apaixonado - Construindo uma Carreira Notável em Desenvolvimento de Software",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/O Programador Apaixonado - Construindo uma Carreira Notável em Desenvolvimento de Software - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "O Programador Pragmático",
+                      "author": "Andrew Hunt e David Thomas",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/O Programador Pragmático - Autor (Andrew Hunt e David Thomas).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Por que Os Generalistas Vencem Em um Mundo de Especialistas",
+                      "author": "David Epstein",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Por que Os Generalistas Vencem Em um Mundo de Especialistas - Autor(David Epstein).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Range - Why Generalists Triumph in a Specialized World",
+                      "author": "David Epstein",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Range - Why Generalists Triumph in a Specialized World - Autor(David Epstein).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Secrets of a Buccaneer-Scholar - How Self-Education and the Pursuit of Passion Can Lead to a Lifetime of Success",
+                      "author": "James Marcus Bach",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/Secrets of a Buccaneer-Scholar - How Self-Education and the Pursuit of Passion Can Lead to a Lifetime of Success - Autor (James Marcus Bach).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "SEO Prático - Seu Site na Primeira Página das Buscas",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/SEO Prático - Seu Site na Primeira Página das Buscas - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Soft Skills - The Software Developer's Life Manual",
+                      "author": "John Sonmez",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/SEO Prático - Seu Site na Primeira Página das Buscas - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "The Mythical Man-Month Essays On Software Engineering",
+                      "author": "Frederick P. Brooks",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/The Mythical Man-Month Essays On Software Engineering - Author (Frederick P. Brooks).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "The Passionate Programmer - Creating a Remarkable Career in Software Development",
+                      "author": "Chad Fowler",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/The Mythical Man-Month Essays On Software Engineering - Author (Frederick P. Brooks).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "ThoughtWorks Antologia Brasil - Histórias de aprendizado e inovação",
+                      "author": "Casa do Código",
+                      "category": "Carreira e Habilidades",
+                      "path": "LivrosDev/ThoughtWorks Antologia Brasil - Histórias de aprendizado e inovação - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Estatística - O que é, para que serve, como funciona",
+                      "author": "Charles J. Wheelan",
+                      "category": "Data Science",
+                      "path": "https://github.com/orlandojsjunior/BibliotecaDev/blob/main/LivrosDev/Estatistica%20-%20O%20que%20e%2C%20para%20que%20serve%2C%20como%20funciona%20.pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Actionable Agile Metrics For Predictability - An Introduction",
+                      "author": "Daniel Vacanti",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "https://www.amazon.com/Actionable-Agile-Metrics-Predictability-Introduction-ebook/dp/B013ZQ5TUQ/ref=sr_1_fkmrnull_1?crid=1LXM9DMGQ3SS8&keywords=actionable+agile+metrics+for+predictability&qid=1552668486&s=gateway&sprefix=actionable+,aps,216&sr=8-1-fkmrnull",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Agile Estimating and Planning",
+                      "author": "Mike Cohn",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Agile Estimating and Planning - Autor (Mike Cohn).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Agile Project Management with Scrum",
+                      "author": "Ken Schwaber",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Agile - Desenvolvimento de Software com Entregas Frequentes e Foco no Valor de Negócio",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Agile - Desenvolvimento de Software com Entregas Frequentes e Foco no Valor de Negócio - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "BDD in Action - Behavior-Driven Development for the Whole Software Lifecycle",
+                      "author": "John Ferguson Smart",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/BDD in Action - Behavior-Driven Development for the Whole Software Lifecycle - Autor (John Ferguson Smart).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Código limpo - Habilidades práticas do Agile Software",
+                      "author": "Robert C. Martin",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Crystal Clear - A Human-Powered Methodology for Small Teams",
+                      "author": "Alistair Cockburn",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Desenvolvimento de Software com Scrum - Aplicando Métodos Ágeis com Sucesso",
+                      "author": "Mike Cohn",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "https://www.amazon.com.br/Desenvolvimento-Software-com-Scrum-Aplicando-ebook/dp/B017AD8ZAQ/ref=sr_1_22?s=books&ie=UTF8&qid=1512145952&sr=1-22&keywords=Scrum",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "eXtreme Programming - Práticas para o dia a dia no desenvolvimento ágil de software",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Extreme Programming Explained - Embrace Change - Autor (Kent Beck).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Métricas ágeis - Obtenha melhores resultados em sua equipe",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Métricas ágeis - Obtenha melhores resultados em sua equipe - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Scrum - Gestão ágil para projetos de sucesso",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Scrum - Gestão ágil para projetos de sucesso - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Scrum 360 - Um guia completo e prático de agilidade",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Scrum 360 - Um guia completo e prático de agilidade - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Test-Driven Development - Teste e Design no Mundo Real",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Test-Driven Development - Teste e Design no Mundo Real - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Testes Automatizados de Software - Um Guia Prático",
+                      "author": "Casa do Código",
+                      "category": "Desenvolvimento Ágil",
+                      "path": "LivrosDev/Testes Automatizados de Software - Um Guia Prático - Autor (Casa do Código).pdf",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Amazon AWS - Descomplicando a computação na nuvem",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Amazon AWS - Descomplicando a computação na nuvem - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified Cloud Practitioner Exam",
+                      "author": "Jon Bonso e Adrian Formaran",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified Cloud Practitioner Exam - Autor (Jon Bonso and Adrian Formaran).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified Developer Associate Exam",
+                      "author": "Jon Bonso e Adrian Formaran",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified Developer Associate Exam - Autor (Jon Bonso and Adrian Formaran).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified DevOps Engineer",
+                      "author": "Adam Book",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified DevOps Engineer - Professional Certification and Beyond - Autor (Adam Book).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified DevOps Professional Engineer",
+                      "author": "Jon Bonso e Kenneth Samonte",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified DevOps Professional Engineer - Autor (Jon Bonso and Kenneth Samonte).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified Security Specialty Exam",
+                      "author": "Jon Bonso e Carlo Acebedo",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified Security Specialty Exam - Autor (Jon Bonso and Carlo Acebedo).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified Solutions Architect Associate SAA-C03",
+                      "author": "Jon Bonso",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified Solutions Architect Associate SAA-C03 - Autor (Jon Bonso).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified Solutions Architect Professional",
+                      "author": "Jon Bonso e Adrian Formaran",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified Solutions Architect Professional - Autor (Jon Bonso and Adrian Formaran).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS Certified SysOps Administrator Associate Version 2",
+                      "author": "Jon Bonso e Lervin John Obando",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS Certified SysOps Administrator Associate Version 2 - Autor (Jon Bonso and Lervin John Obando).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS For Beginners - The ultimate guide to the fundamentals of aws",
+                      "author": "Steve M Burnett",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS For Beginners - The ultimate guide to the fundamentals of aws - Autor (Steve M Burnett).pdf",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "AWS for Non-Engineers",
+                      "author": "Hiroko Nishimura",
+                      "category": "DevOps",
+                      "path": "LivrosDev/AWS for Non-Engineers - Autor (Hiroko Nishimura).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Aplicações web real time com Node-js",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Aplicações web real time com Node-js - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Azure - Coloque suas plataformas e serviços no cloud",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Azure - Coloque suas plataformas e serviços no cloud - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Caixa de Ferramentas DevOps - Um Guia para Construção, Administração e Arquitetura de Sistemas Modernos",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Caixa de Ferramentas DevOps - Um Guia para Construção, Administração e Arquitetura de Sistemas Modernos - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Canivete suiço do desenvolvedor Node",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Canivete suico do desenvolvedor Node - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Comunicação de Dados e Redes de Computadores",
+                      "author": "Behrouz A. Forouzan",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Comunicação de Dados e Redes de Computadores - Autor (Behrouz A. Forouzan).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Construindo API REST com Node JS",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Construindo API REST com Node JS - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Containers com Docker - Do desenvolvimento à produção",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Containers com Docker - Do desenvolvimento à produção - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Controlando Versões com Git e GitHub",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Controlando Versões com Git e GitHub - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "DevOps na Prática - Entrega de Software Confiável e Automatizada",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/DevOps na Prática - Entrega de Software Confiável e Automatizada - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Entrega contínua em Android - Como automatizar a distribuição de apps",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Entrega contínua em Android - Como automatizar a distribuição de apps - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Entrega Contínua - Como Entregar Software de Forma Rápida e Confiável",
+                      "author": "Jez Humble",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Guia prático do servidor Linux - Administração Linux para iniciantes",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Guia prático do servidor Linux - Administração Linux para iniciantes - Autor (Casa do Código).pdf",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Jenkins - Automatize Tudo sem Complicações",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Jenkins - Automatize Tudo sem Complicações - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Kubernetes - Tudo sobre orquestração de contêineres",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/Kubernetes - Tudo sobre orquestração de contêineres - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "MongoDB - Construa Novas Aplicações com Novas Tecnologias",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/MongoDB - Construa Novas Aplicações com Novas Tecnologias - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "NoSQL - Como armazenar os dados de uma aplicação moderna",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/NoSQL - Como armazenar os dados de uma aplicação moderna - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "REST - Construa API's inteligentes de maneira simples",
+                      "author": "Casa do Código",
+                      "category": "DevOps",
+                      "path": "LivrosDev/REST - Construa API's inteligentes de maneira simples - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Agile Retrospectives - Making Good Teams Great",
+                      "author": "Esther Derby",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "A arte de dar feedback (Um guia acima da média - HBR) - Motive sua equipe. Melhore a comunicação. Estabeleça objetivos claros.",
+                      "author": "Harvard Business Review",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "A Startup Enxuta",
+                      "author": "Eric Ries",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/A Startup Enxuta - Autor (Eric Ries).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Coaching Agile Teams - A Companion for ScrumMasters, Agile Coaches, and Project Managers in Transition",
+                      "author": "Adkins Lyssa",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Como Melhorar o Desempenho da Sua Equipe de Desenvolvimento",
+                      "author": "Software House",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/Como Melhorar o Desempenho da Sua Equipe de Desenvolvimento - Autor(Software House).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "LEAN ENTERPRISE - Como empresas de alta performance inovam em escala",
+                      "author": "Casa do Código",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/LEAN ENTERPRISE - Como empresas de alta performance inovam em escala - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "More Agile Testing - Learning Journeys for the Whole Team",
+                      "author": "Lisa Crispin",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Sprint",
+                      "author": "Jake Knapp",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "LivrosDev/Código limpo - Habilidades práticas do Agile Software - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "This is Lean - Resolving the Efficiency Paradox",
+                      "author": "Niklas Modig e Pär Åhlström",
+                      "category": "Empresa e Cultura Organizacional",
+                      "path": "https://www.amazon.com.br/This-Lean-Resolving-Efficiency-Paradox-ebook/dp/B00JZZS7Q0/ref=sr_1_fkmrnull_1?__mk_pt_BR=ÅMÅŽÕÑ&keywords=Isto+é+Lean&qid=1550575009&s=gateway&sr=8-1-fkmrnull",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Cracking the Coding Interview - 189 Programming Questions and Solutions",
+                      "author": "Gayle Laakmann McDowell",
+                      "category": "Entrevista e Preparação para Programação",
+                      "path": "LivrosDev/Cracking the Coding Interview - 189 Programming Questions and Solutions - Author (Gayle Laakmann McDowell).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Front End Interview Handbook",
+                      "author": "yangshun",
+                      "category": "Entrevista e Preparação para Programação",
+                      "path": "https://www.frontendinterviewhandbook.com/pr/",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Guia prático de TypeScript - Melhore suas aplicações JavaScript",
+                      "author": "Casa do Código",
+                      "category": "Entrevista e Preparação para Programação",
+                      "path": "LivrosDev/Guia prático de TypeScript - Melhore suas aplicações JavaScript - Autor (Casa do Código).pdf",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Primeiros passos com Node.js",
+                      "author": "Casa do Código",
+                      "category": "Entrevista e Preparação para Programação",
+                      "path": "https://www.casadocodigo.com.br/products/livro-primeiros-passos-node",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "TDD - Desenvolvimento Guiado por Testes",
+                      "author": "Ken Beck",
+                      "category": "Entrevista e Preparação para Programação",
+                      "path": "LivrosDev/TDD - Desenvolvimento Guiado por Testes - Autor (Ken Beck).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Tech Interview Handbook",
+                      "author": "yangshun",
+                      "category": "Entrevista e Preparação para Programação",
+                      "path": "https://www.techinterviewhandbook.org",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "A Arte da Gestão - Um Guia Prático Para Integrar Liderança e Recursos Humanos no Setor de Tecnologia",
+                      "author": "Camille Fournier",
+                      "category": "Liderança e Gestão de Equipe",
+                      "path": "https://www.amazon.com.br/Arte-Gestão-Integrar-Liderança-Tecnologia-ebook/dp/B086D4LJN8",
+                      "level": "beginner",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "A Regra é Não Ter Regras - A Netflix e a Cultura da Reinvenção",
+                      "author": "Reed Hastings",
+                      "category": "Liderança e Gestão de Equipe",
+                      "path": "LivrosDev/A Regra é Não Ter Regras - A Netflix e a Cultura da Reinvenção - Autor (Reed Hastings).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "O Ego É Seu Inimigo. Como Dominar Seu Pior Adversário",
+                      "author": "Ryan Holiday",
+                      "category": "Liderança e Gestão de Equipe",
+                      "path": "LivrosDev/O Ego É Seu Inimigo. Como Dominar Seu Pior Adversário - Autor (Ryan Holiday).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Managing For Happiness",
+                      "author": "Jurgen Appelo",
+                      "category": "Liderança e Gestão de Equipe",
+                      "path": "LivrosDev/Managing For Happiness - Autor (Jurgen Appelo).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Clean Agile - Back to Basics",
+                      "author": "Robert Martin",
+                      "category": "Metodologias Ágeis Avançadas",
+                      "path": "LivrosDev/Clean Agile - Back to Basics - Autor (Robert Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Extreme Programming Explained - Embrace Change",
+                      "author": "Kent Beck",
+                      "category": "Metodologias Ágeis Avançadas",
+                      "path": "LivrosDev/Extreme Programming Explained - Embrace Change - Autor (Kent Beck).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Implementando o Desenvolvimento Lean de Software - Do Conceito ao Dinheiro",
+                      "author": "Mary Poppendieck e Tom Poppendieck",
+                      "category": "Metodologias Ágeis Avançadas",
+                      "path": "https://www.amazon.com.br/Implementando-Desenvolvimento-Software-Conceito-Dinheiro/dp/8577807568/ref=sr_1_1?s=books&ie=UTF8&qid=1512144584&sr=1-1&keywords=Implementando+lean",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Real-World Kanban - Do Less, Accomplish More with Lean Thinking",
+                      "author": "Mattias Skarin",
+                      "category": "Metodologias Ágeis Avançadas",
+                      "path": "LivrosDev/Real-World Kanban - Do Less, Accomplish More with Lean Thinking - Autor (Mattias Skarin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Scaling Done Right - How to Achieve Business Agility with Scrum@Scale and Make the Competition Irrelevant",
+                      "author": "Gereon Hermkes e Luiz Quintela",
+                      "category": "Metodologias Ágeis Avançadas",
+                      "path": "https://www.amazon.com/Scaling-Done-Right-Competition-Irrelevant-ebook/dp/B088WFH13G",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "The Cambridge Handbook of the Learning Sciences",
+                      "author": "R. Keith Sawyer",
+                      "category": "Metodologias Ágeis Avançadas",
+                      "path": "LivrosDev/The Cambridge Handbook of the Learning Sciences - Autor(R. Keith Sawyer).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "A Web Mobile - Programe para um Mundo de Muitos Dispositivos",
+                      "author": "Casa do Código",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/A Web Mobile - Programe para um Mundo de Muitos Dispositivos - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Clean Coder, The - A Code of Conduct for Professional Programmers",
+                      "author": "Robert C. Martin",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Clean Coder, The - A Code of Conduct for Professional Programmers - Autor (Robert C. Martin).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "CSS Eficiente - Técnicas e ferramentas que fazem a diferença nos seus estilos",
+                      "author": "Casa do Código",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/CSS Eficiente - Técnicas e ferramentas que fazem a diferença nos seus estilos - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Domain Driven Design Rapido",
+                      "author": "Eric Evans",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Domain Driven Design Rapido - Autor (Eric Evans).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Domain-Driven Design Referência - Sumário de Padrões e Definições",
+                      "author": "Eric Evans",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Domain-Driven Design Referência - Sumário de Padrões e Definições - Autor (Eric Evans).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Google Android - crie aplicações para celulares e tablets",
+                      "author": "Casa do Código",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Google Android - crie aplicações para celulares e tablets - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "HTML5 e CSS3 - domine a web do futuro",
+                      "author": "Casa do Código",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/HTML5 e CSS3 - domine a web do futuro - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Padrões de Projetos - Soluções Reutilizáveis de Software Orientados a Objetos",
+                      "author": "Erich Gamma",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Padrões de Projetos - Soluções Reutilizáveis de Software Orientados a Objetos - Autor (Erich Gamma).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Progressive web apps - Construa aplicações progressivas com React",
+                      "author": "Casa do Código",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Progressive web apps - Construa aplicações progressivas com React - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "UX e Usabilidade Aplicados em Mobile e Web",
+                      "author": "Caelum",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/UX e Usabilidade Aplicados em Mobile e Web - Autor (Caelum).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+                    },
+                    {
+                      "title": "Web Design Responsivo - Páginas adaptáveis para todos os dispositivos",
+                      "author": "Casa do Código",
+                      "category": "Padrões e Design de Software",
+                      "path": "LivrosDev/Web Design Responsivo - Páginas adaptáveis para todos os dispositivos - Autor (Casa do Código).pdf",
+                      "level": "advanced",
+                      "source": "github_repo"
+
+                    }
+  ]
+},
+
+  {
+    "Repositoy-Name": "Engenharia-de-Software-Livros-em-PDF",
+    "livros": [
+                {
+                  "title": "algoritmos- portugue╠és- cormen",
+                  "author": "Desconhecido",
+                  "category": "Algoritmos e Estruturas de Dados",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/algoritmos-%20portugue%E2%95%A0%C3%A9s-%20cormen.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Caderno de Algoritmos",
+                  "author": "Desconhecido",
+                  "category": "Algoritmos e Estruturas de Dados",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Caderno%20de%20Algoritmos.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "caelum-algoritmos-estruturas-dados-java-cs14",
+                  "author": "Desconhecido",
+                  "category": "Algoritmos e Estruturas de Dados",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/caelum-algoritmos-estruturas-dados-java-cs14.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Estruturas de dados e algoritmos com JavaScript (Loiane Groner)  (1)",
+                  "author": "Desconhecido",
+                  "category": "Algoritmos e Estruturas de Dados",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Estruturas%20de%20dados%20e%20algoritmos%20com%20JavaScript%20(Loiane%20Groner)%20%20(1).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introdução à Computação Da Lógica aos jogos com Ruby - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Algoritmos e Estruturas de Dados",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Computa%C3%A7%C3%A3o%20Da%20L%C3%B3gica%20aos%20jogos%20com%20Ruby%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "(Embedded Technology) Chris Nagy - Embedded Systems Design Using the TI MSP430 Series-Newnes (2003)",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/(Embedded%20Technology)%20Chris%20Nagy%20-%20Embedded%20Systems%20Design%20Using%20the%20TI%20MSP430%20Series-Newnes%20(2003).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Caixa de Ferramentas DevOps Um guia para construcao, administracao e arquitetura de sistemas modernos - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Caixa%20de%20Ferramentas%20DevOps%20Um%20guia%20para%20construcao%2C%20administracao%20e%20arquitetura%20de%20sistemas%20modernos%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Design Patterns com Java - Projeto orientado a objetos guiado por padrões - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Design%20Patterns%20com%20Java%20-%20Projeto%20orientado%20a%20objetos%20guiado%20por%20padr%C3%B5es%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Design_Patterns",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Design_Patterns.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introdução a arquitetura e design de software - Uma visão sobre a plataforma JAVA",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introdu%C3%A7%C3%A3o%20a%20arquitetura%20e%20design%20de%20software%20-%20Uma%20vis%C3%A3o%20sobre%20a%20plataforma%20JAVA.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introdução e boas práticas em UX Design - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introdu%C3%A7%C3%A3o%20e%20boas%20pr%C3%A1ticas%20em%20UX%20Design%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introdução à Arquitetura e Design de Software - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Arquitetura%20e%20Design%20de%20Software%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introdução à Arquitetura e Design de Software",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20Arquitetura%20e%20Design%20de%20Software.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Arquitetura e Organização de Computadores(1)",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Arquitetura%20e%20Organiza%C3%A7%C3%A3o%20de%20Computadores(1).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Arquitetura e organização de computadores",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Arquitetura%20e%20organiza%C3%A7%C3%A3o%20de%20computadores.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Orientação a Objetos e SOLID para Ninjas Projetando classes flexíveis - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Orienta%C3%A7%C3%A3o%20a%20Objetos%20e%20SOLID%20para%20Ninjas%20Projetando%20classes%20flex%C3%ADveis%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Orientação a Objetos e SOLID para Ninjas Projetando classes flexíveis",
+                  "author": "Desconhecido",
+                  "category": "Arquitetura de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Orienta%C3%A7%C3%A3o%20a%20Objetos%20e%20SOLID%20para%20Ninjas%20Projetando%20classes%20flex%C3%ADveis.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Fragmentos de um programador - Artigos e insights da carreira de um profissional",
+                  "author": "Desconhecido",
+                  "category": "Carreira e Habilidades",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Fragmentos%20de%20um%20programador%20-%20Artigos%20e%20insights%20da%20carreira%20de%20um%20profissional.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "O Programador Apaixonado - Construindo uma carreira notavel em desenvolvimento de software - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Carreira e Habilidades",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/O%20Programador%20Apaixonado%20-%20Construindo%20uma%20carreira%20notavel%20em%20desenvolvimento%20de%20software%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "O Programador Apaixonado - Construindo uma carreira notavel em desenvolvimento de software",
+                  "author": "Desconhecido",
+                  "category": "Carreira e Habilidades",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/O%20Programador%20Apaixonado%20-%20Construindo%20uma%20carreira%20notavel%20em%20desenvolvimento%20de%20software.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Armazenando dados com Redis - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Armazenando%20dados%20com%20Redis%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Data Science do zero_ Primeiras - Joel Grus",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Data%20Science%20do%20zero_%20Primeiras%20-%20Joel%20Grus.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolvimento web com PHP e MySQL - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolvimento%20web%20com%20PHP%20e%20MySQL%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Elasticsearch consumindo dados real time com ELK",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Elasticsearch%20consumindo%20dados%20real%20time%20com%20ELK.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Inteligência Artificial",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Intelig%C3%AAncia%20Artificial.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JPA Eficaz - As melhores praticas de persistencia de dados em Java - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JPA%20Eficaz%20-%20As%20melhores%20praticas%20de%20persistencia%20de%20dados%20em%20Java%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Big Data - Tecnicas extracao de valor dos dados",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Big%20Data%20-%20Tecnicas%20extracao%20de%20valor%20dos%20dados.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Comunicação de Dados e Redes de Computadores",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Comunica%C3%A7%C3%A3o%20de%20Dados%20e%20Redes%20de%20Computadores.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Inteligência Artificial",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Intelig%C3%AAncia%20Artificial.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Introdução à Mineração de Dados",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Introdu%C3%A7%C3%A3o%20%C3%A0%20Minera%C3%A7%C3%A3o%20de%20Dados.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de MySQL",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20MySQL.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Oracle Database 11g Sql",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Oracle%20Database%2011g%20Sql.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Sistemas de Banco de Dados - 4ª Edição",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Sistemas%20de%20Banco%20de%20Dados%20-%204%C2%AA%20Edi%C3%A7%C3%A3o.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MicrosoftSQLServerNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MicrosoftSQLServerNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MySQL Comece com o principal banco de dados open source do mercado - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MySQL%20Comece%20com%20o%20principal%20banco%20de%20dados%20open%20source%20do%20mercado%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MySQL Comece com o principal banco de dados open source do mercado",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MySQL%20Comece%20com%20o%20principal%20banco%20de%20dados%20open%20source%20do%20mercado.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MySQLNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MySQLNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "NoSQL - Como armazenar os dados de uma aplicação moderna",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/NoSQL%20-%20Como%20armazenar%20os%20dados%20de%20uma%20aplica%C3%A7%C3%A3o%20moderna.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PLSQL - Domine a linguagem do banco de dados Oracle",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PLSQL%20-%20Domine%20a%20linguagem%20do%20banco%20de%20dados%20Oracle.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PLSQL Domine a linguagem do banco de dados Oracle - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PLSQL%20Domine%20a%20linguagem%20do%20banco%20de%20dados%20Oracle%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PostgreSQL - Banco de dados para aplicações web modernas",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PostgreSQL%20-%20Banco%20de%20dados%20para%20aplica%C3%A7%C3%B5es%20web%20modernas.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PostgreSQLNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Data Science",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PostgreSQLNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Agile - Desenvolvimento de software com entregas frequentes e foco no valor de negocio - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Agile%20-%20Desenvolvimento%20de%20software%20com%20entregas%20frequentes%20e%20foco%20no%20valor%20de%20negocio%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Agile Software Requirements Lean Requirements Practices for Teams, Programs, and the Enterprise by Dean Leffingwell (z-lib.org)",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Agile%20Software%20Requirements%20Lean%20Requirements%20Practices%20for%20Teams%2C%20Programs%2C%20and%20the%20Enterprise%20by%20Dean%20Leffingwell%20(z-lib.org).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolvimento de Jogos para Android - Explore sua imaginacao com o framework Cocos2D - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolvimento%20de%20Jogos%20para%20Android%20-%20Explore%20sua%20imaginacao%20com%20o%20framework%20Cocos2D%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Explorando APIs e bibliotecas Java JDBC, IO, Threads, JavaFX e mais - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Explorando%20APIs%20e%20bibliotecas%20Java%20JDBC%2C%20IO%2C%20Threads%2C%20JavaFX%20e%20mais%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Explorando APIs e bibliotecas Java JDBC, IO, Threads, JavaFX e mais",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Explorando%20APIs%20e%20bibliotecas%20Java%20JDBC%2C%20IO%2C%20Threads%2C%20JavaFX%20e%20mais.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "eXtreme programming  Praticas para o dia-a-dia no desenvolvimento agil de software - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/eXtreme%20programming%20%20Praticas%20para%20o%20dia-a-dia%20no%20desenvolvimento%20agil%20de%20software%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Jogos em HTML5 Explore o mobile e física - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Jogos%20em%20HTML5%20Explore%20o%20mobile%20e%20f%C3%ADsica%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "LEAN ENTERPRISE - Como empresas de alta performance inovam em escala",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/LEAN%20ENTERPRISE%20-%20Como%20empresas%20de%20alta%20performance%20inovam%20em%20escala.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Mean Full stack JavaScript para aplicações web com MongoDB, Express, Angular e Node - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Desenvolvimento Ágil",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Mean%20Full%20stack%20JavaScript%20para%20aplica%C3%A7%C3%B5es%20web%20com%20MongoDB%2C%20Express%2C%20Angular%20e%20Node%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Aplicacoes web real time com Node-js - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Aplicacoes%20web%20real%20time%20com%20Node-js%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Apostila de Administração de Redes Linux",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Apostila%20de%20Administra%C3%A7%C3%A3o%20de%20Redes%20Linux.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Apostila de Linux Ubuntu",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Apostila%20de%20Linux%20Ubuntu.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Começando com o Linux - Comandos, serviços e administração - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Come%C3%A7ando%20com%20o%20Linux%20-%20Comandos%2C%20servi%C3%A7os%20e%20administra%C3%A7%C3%A3o%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "beginner",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Containers com Docker do Desenvolvimento a Producao",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Containers%20com%20Docker%20do%20Desenvolvimento%20a%20Producao.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Controlando versões com Git e GitHub - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Controlando%20vers%C3%B5es%20com%20Git%20e%20GitHub%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "controlando-versoes-com-git-e-github",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/controlando-versoes-com-git-e-github.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "DevOps na prática - entrega de software confiável e automatizada - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/DevOps%20na%20pr%C3%A1tica%20-%20entrega%20de%20software%20confi%C3%A1vel%20e%20automatizada%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "DevOps Na prática - Entrega de software confiável e automatizada",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/DevOps%20Na%20pr%C3%A1tica%20-%20Entrega%20de%20software%20confi%C3%A1vel%20e%20automatizada.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "GitNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/GitNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Jenkins -  Automatize tudo sem complicacoes",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Jenkins%20-%20%20Automatize%20tudo%20sem%20complicacoes.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Jerry Luecke - Analog and Digital Circuits for Electronic Control System Applications_ Using the TI MSP430 Microcontroller-Newnes (2004)",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Jerry%20Luecke%20-%20Analog%20and%20Digital%20Circuits%20for%20Electronic%20Control%20System%20Applications_%20Using%20the%20TI%20MSP430%20Microcontroller-Newnes%20(2004).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Kenneth Lewenhagen, Anders Åkesson - Node.js in Open Source projects on Github",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Kenneth%20Lewenhagen%2C%20Anders%20%C3%85kesson%20-%20Node.js%20in%20Open%20Source%20projects%20on%20Github.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Linux-a-biblia-pt-br",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Linux-a-biblia-pt-br.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "LinuxNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/LinuxNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de A Computacao pessoal e o Sistema operacional Linux",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20A%20Computacao%20pessoal%20e%20o%20Sistema%20operacional%20Linux.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Entendendo e Dominando o Linux",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Entendendo%20e%20Dominando%20o%20Linux.pdf",
+                  "level": "beginner",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Linux - A Bíblia",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Linux%20-%20A%20B%C3%ADblia.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Node.js - Aplicações web real-tome com Node.js",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Node.js%20-%20Aplica%C3%A7%C3%B5es%20web%20real-tome%20com%20Node.js.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "NodeJSNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/NodeJSNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "O Canivete suíço do desenvolvedor Node",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/O%20Canivete%20su%C3%AD%C3%A7o%20do%20desenvolvedor%20Node.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PythonTheCompleteManualDigital",
+                  "author": "Desconhecido",
+                  "category": "DevOps",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PythonTheCompleteManualDigital.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "A Startup Enxuta - Eric Ries",
+                  "author": "Desconhecido",
+                  "category": "Empresa e Cultura Organizacional",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/A%20Startup%20Enxuta%20-%20Eric%20Ries.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "EBook - eMotion Studios - Como transformar sua ideia em startup em 4 passos (1)",
+                  "author": "Desconhecido",
+                  "category": "Empresa e Cultura Organizacional",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/EBook%20-%20eMotion%20Studios%20-%20Como%20transformar%20sua%20ideia%20em%20startup%20em%204%20passos%20(1).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Guia da Startup Como startups e empresas estabelecidas podem criar produtos web rentáveis - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Empresa e Cultura Organizacional",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Guia%20da%20Startup%20Como%20startups%20e%20empresas%20estabelecidas%20podem%20criar%20produtos%20web%20rent%C3%A1veis%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Gestão de produtos - Como aumentar as chances de sucesso do seu software",
+                  "author": "Desconhecido",
+                  "category": "Liderança e Gestão de Equipe",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Gest%C3%A3o%20de%20produtos%20-%20Como%20aumentar%20as%20chances%20de%20sucesso%20do%20seu%20software.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "(Arduino Descomplicado) Claudio Luis Vieira Oliveira_ Humberto Augusto Piovesana Zanetti - Arduino Descomplicado_ Como Elaborar Projetos de Eletrônica-Érica (2015)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/(Arduino%20Descomplicado)%20Claudio%20Luis%20Vieira%20Oliveira_%20Humberto%20Augusto%20Piovesana%20Zanetti%20-%20Arduino%20Descomplicado_%20Como%20Elaborar%20Projetos%20de%20Eletr%C3%B4nica-%C3%89rica%20(2015).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "(EngineeringPro collection) Dan Harres (Auth.) - Msp430-based Robot Applications. A Guide to Developing Embedded Systems-Newnes (2013)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/(EngineeringPro%20collection)%20Dan%20Harres%20(Auth.)%20-%20Msp430-based%20Robot%20Applications.%20A%20Guide%20to%20Developing%20Embedded%20Systems-Newnes%20(2013).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "(Make_ Projects) Massimo Banzi - Getting Started with Arduino -Make (2008)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/(Make_%20Projects)%20Massimo%20Banzi%20-%20Getting%20Started%20with%20Arduino%20-Make%20(2008).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Adrian Fernandez and Dung Dang (Auth.) - Getting Started with the MSP430 Launchpad (2013)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Adrian%20Fernandez%20and%20Dung%20Dang%20(Auth.)%20-%20Getting%20Started%20with%20the%20MSP430%20Launchpad%20(2013).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Albert Paul Malvino_ David J. Bates - Eletrônica Volume 2",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Albert%20Paul%20Malvino_%20David%20J.%20Bates%20-%20Eletr%C3%B4nica%20Volume%202.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Algorithms",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Algorithms.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "AlgorithmsNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/AlgorithmsNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "AndroidNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/AndroidNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Angular2NotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Angular2NotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "AngularJSNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/AngularJSNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Apostila de computação gráfica",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Apostila%20de%20computa%C3%A7%C3%A3o%20gr%C3%A1fica.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Apostila de Computação Quântica",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Apostila%20de%20Computa%C3%A7%C3%A3o%20Qu%C3%A2ntica.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "arduino_básico_Michael_McRoberts",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/arduino_b%C3%A1sico_Michael_McRoberts.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Aurélio Marinho Jargas - Shell Script Profissional",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Aur%C3%A9lio%20Marinho%20Jargas%20-%20Shell%20Script%20Profissional.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "BashNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/BashNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Cody Lindey - Front-End Handbook",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Cody%20Lindey%20-%20Front-End%20Handbook.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Coletanea Front-End - Uma Antologia da Comunidade Front End Brasileira - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Coletanea%20Front-End%20-%20Uma%20Antologia%20da%20Comunidade%20Front%20End%20Brasileira%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Conhecendo o Adobe Photoshop CS6 - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Conhecendo%20o%20Adobe%20Photoshop%20CS6%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Conhecendo o Adobe Photoshop CS6",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Conhecendo%20o%20Adobe%20Photoshop%20CS6%20.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CPlusPlusNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CPlusPlusNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Criando aplicações para o seu Windows Phone - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Criando%20aplica%C3%A7%C3%B5es%20para%20o%20seu%20Windows%20Phone%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Criando aplicações para o seu Windows Phone",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Criando%20aplica%C3%A7%C3%B5es%20para%20o%20seu%20Windows%20Phone.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Crypto101",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Crypto101.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CSharpNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CSharpNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Cálculo I",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/C%C3%A1lculo%20I.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolvimento de Jogos para iOS - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolvimento%20de%20Jogos%20para%20iOS%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolvimento de Jogos para iOS",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolvimento%20de%20Jogos%20para%20iOS.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Direto ao ponto - Criando aplicacoes de forma enxuta",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Direto%20ao%20ponto%20-%20Criando%20aplicacoes%20de%20forma%20enxuta.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "DotNETFrameworkNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/DotNETFrameworkNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Ebook em games",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Ebook%20em%20games.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Ebook VirtualBox",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Ebook%20VirtualBox.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Edicao e organizacao de fotos com Adobe Lightroom",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Edicao%20e%20organizacao%20de%20fotos%20com%20Adobe%20Lightroom.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "EntityFrameworkNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/EntityFrameworkNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Entrega contínua em Android - Como automatizar a distribuição de apps",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Entrega%20cont%C3%ADnua%20em%20Android%20-%20Como%20automatizar%20a%20distribui%C3%A7%C3%A3o%20de%20apps.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Everton Coimbra de Araújo - Asp.NET Core MVC -  Aplicações Modernas em Conjunto com o Entity Framework",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Everton%20Coimbra%20de%20Ara%C3%BAjo%20-%20Asp.NET%20Core%20MVC%20-%20%20Aplica%C3%A7%C3%B5es%20Modernas%20em%20Conjunto%20com%20o%20Entity%20Framework.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "ExcelVBANotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/ExcelVBANotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Google Android - crie aplicações para celulares e tablets - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Google%20Android%20-%20crie%20aplica%C3%A7%C3%B5es%20para%20celulares%20e%20tablets%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Google Android - crie aplicações para celulares e tablets",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Google%20Android%20-%20crie%20aplica%C3%A7%C3%B5es%20para%20celulares%20e%20tablets.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Google App Engine - Construindo Servicos na Nuvem",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Google%20App%20Engine%20-%20Construindo%20Servicos%20na%20Nuvem.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Guia do Mestre Programador",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Guia%20do%20Mestre%20Programador.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Guia Front-End - O caminho das pedras para ser um dev front-end",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Guia%20Front-End%20-%20O%20caminho%20das%20pedras%20para%20ser%20um%20dev%20front-end.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "guia-markdown",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/guia-markdown.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "HaskellNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/HaskellNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "HibernateNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/HibernateNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Ian Sinclair - Sensors and Transducers-Newnes (2001)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Ian%20Sinclair%20-%20Sensors%20and%20Transducers-Newnes%20(2001).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introducao ao Calculo Diferencial",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introducao%20ao%20Calculo%20Diferencial.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introducao ao Calculo Integral",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introducao%20ao%20Calculo%20Integral.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "introducao-a-programacao-livro",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/introducao-a-programacao-livro.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Introdução à programação em C - Os primeiros passos de um desenvolvedor",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Introdu%C3%A7%C3%A3o%20%C3%A0%20programa%C3%A7%C3%A3o%20em%20C%20-%20Os%20primeiros%20passos%20de%20um%20desenvolvedor.pdf",
+                  "level": "beginner",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "iOS Programe para iPhone e iPad - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/iOS%20Programe%20para%20iPhone%20e%20iPad%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "iOS Programe para iPhone e iPad",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/iOS%20Programe%20para%20iPhone%20e%20iPad.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "iOSNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/iOSNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Jogos Android - Crie um game do zero usando classes nativas - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Jogos%20Android%20-%20Crie%20um%20game%20do%20zero%20usando%20classes%20nativas%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "John H. Davies-MSP430 Microcontroller Basics-Newnes (2008)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/John%20H.%20Davies-MSP430%20Microcontroller%20Basics-Newnes%20(2008).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "John Lovine-PIC Microcontroller Project Book-McGraw-Hill (2000)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/John%20Lovine-PIC%20Microcontroller%20Project%20Book-McGraw-Hill%20(2000).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "John Walkenbach - Programando  Excel ® Vba Para Leigos",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/John%20Walkenbach%20-%20Programando%20%20Excel%20%C2%AE%20Vba%20Para%20Leigos.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "jquery-fundamentals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/jquery-fundamentals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "jQueryNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/jQueryNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "kotlin-com-android-crie-aplicativos-de-maneira-facil-e-divertida",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/kotlin-com-android-crie-aplicativos-de-maneira-facil-e-divertida.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "KotlinNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/KotlinNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "LaTeXNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/LaTeXNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Compilladores",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Compilladores.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Desenvolvimento de jogos 3D",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Desenvolvimento%20de%20jogos%203D.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Introdução ao ambiente windows",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Introdu%C3%A7%C3%A3o%20ao%20ambiente%20windows.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Montagem e Manutenção de Computadores",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Montagem%20e%20Manuten%C3%A7%C3%A3o%20de%20Computadores.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Montagtem, Manutenção e Configuração de Computadores",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Montagtem%2C%20Manuten%C3%A7%C3%A3o%20e%20Configura%C3%A7%C3%A3o%20de%20Computadores.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Rede de Computadores e a Internet",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Rede%20de%20Computadores%20e%20a%20Internet.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Sistemas Operacionais",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Sistemas%20Operacionais.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Windows",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Windows.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Manuel Jiménez, Rogelio Palomera, Isidoro Couvertier (auth.) - Introduction to Embedded Systems_ Using Microcontrollers and the MSP430-Springer-Verlag New York (2014)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Manuel%20Jim%C3%A9nez%2C%20Rogelio%20Palomera%2C%20Isidoro%20Couvertier%20(auth.)%20-%20Introduction%20to%20Embedded%20Systems_%20Using%20Microcontrollers%20and%20the%20MSP430-Springer-Verlag%20New%20York%20(2014).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MATLABNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MATLABNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Michael Barr - Programming Embedded Systems in C and C ++-O_Reilly Media (1999)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Michael%20Barr%20-%20Programming%20Embedded%20Systems%20in%20C%20and%20C%20%2B%2B-O_Reilly%20Media%20(1999).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Michael J Pont - Embedded C-Addison-Wesley Professional (2002)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Michael%20J%20Pont%20-%20Embedded%20C-Addison-Wesley%20Professional%20(2002).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Michael McRoberts - Beginning Arduino-Apress (2010)",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Michael%20McRoberts%20-%20Beginning%20Arduino-Apress%20(2010).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MongoDB Construa novas aplicações com novas tecnologias - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MongoDB%20Construa%20novas%20aplica%C3%A7%C3%B5es%20com%20novas%20tecnologias%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MongoDBNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MongoDBNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MundoJ Orientação a Objetos",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MundoJ%20Orienta%C3%A7%C3%A3o%20a%20Objetos.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "O Mantra da Produtividade - Aprimore sua produtividade com técnicas de foco e organização pessoal",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/O%20Mantra%20da%20Produtividade%20-%20Aprimore%20sua%20produtividade%20com%20t%C3%A9cnicas%20de%20foco%20e%20organiza%C3%A7%C3%A3o%20pessoal.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "ObjectiveCNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/ObjectiveCNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Octave - Seus primeiros passos na programacao cientifica",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Octave%20-%20Seus%20primeiros%20passos%20na%20programacao%20cientifica.pdf",
+                  "level": "beginner",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "OracleDatabaseNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/OracleDatabaseNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Organização estruturada de computadores - Tanenbaum",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Organiza%C3%A7%C3%A3o%20estruturada%20de%20computadores%20-%20Tanenbaum.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PerlNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PerlNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PowerShellNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PowerShellNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Programando em Go - Crie aplicações com a linguagem do Google - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Programando%20em%20Go%20-%20Crie%20aplica%C3%A7%C3%B5es%20com%20a%20linguagem%20do%20Google%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "RNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Outros",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/RNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "324976285-Fundamentos-da-programacao-pascal-C-C-java-1-pdf",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/324976285-Fundamentos-da-programacao-pascal-C-C-java-1-pdf.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "A Web Mobile - Programe para um Mundo de Muitos Dispositivos - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/A%20Web%20Mobile%20-%20Programe%20para%20um%20Mundo%20de%20Muitos%20Dispositivos%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Aplicacoes Java para a Web Com JDF e JPA - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Aplicacoes%20Java%20para%20a%20Web%20Com%20JDF%20e%20JPA%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "C# e Orientação a Objetos - Caelum, FN-13",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/C%23%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos%20-%20Caelum%2C%20FN-13.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CDI Integre as dependencias e contextos do seu codigo Java - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CDI%20Integre%20as%20dependencias%20e%20contextos%20do%20seu%20codigo%20Java%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Componentes Reutilizaveis em Java Com Reflexoes e Anotacoes - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Componentes%20Reutilizaveis%20em%20Java%20Com%20Reflexoes%20e%20Anotacoes%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CSS Eficiente Técnicas e ferramentas que fazem a diferença nos seus estilos - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CSS%20Eficiente%20T%C3%A9cnicas%20e%20ferramentas%20que%20fazem%20a%20diferen%C3%A7a%20nos%20seus%20estilos%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CSS Eficiente",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CSS%20Eficiente.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CSSNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CSSNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Cucumber e RSpec Construa aplicações Ruby com testes e especificações - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Cucumber%20e%20RSpec%20Construa%20aplica%C3%A7%C3%B5es%20Ruby%20com%20testes%20e%20especifica%C3%A7%C3%B5es%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Cucumber e RSpec Construa aplicações Ruby com testes e especificações",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Cucumber%20e%20RSpec%20Construa%20aplica%C3%A7%C3%B5es%20Ruby%20com%20testes%20e%20especifica%C3%A7%C3%B5es.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "CURSO_WD_43_-_DESENVOLVIMENTO_WEB_COM_HT",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/CURSO_WD_43_-_DESENVOLVIMENTO_WEB_COM_HT.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desbravando Java e Orientação a Objetos Um guia para o iniciante da linguagem - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desbravando%20Java%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos%20Um%20guia%20para%20o%20iniciante%20da%20linguagem%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolva jogos com HTML5 Canvas e JavaScript - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolva%20jogos%20com%20HTML5%20Canvas%20e%20JavaScript%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolvimento web com ASP.NET MVC - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolvimento%20web%20com%20ASP.NET%20MVC%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Desenvolvimento Web com HTML, CSS e JavaScript - Caelum, Curso WD-43",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Desenvolvimento%20Web%20com%20HTML%2C%20CSS%20e%20JavaScript%20-%20Caelum%2C%20Curso%20WD-43.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Diego Martins de Pinho - Javascript - ECMAScript 6 Entre de cabeça no futuro do JavaScript",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Diego%20Martins%20de%20Pinho%20-%20Javascript%20-%20ECMAScript%206%20Entre%20de%20cabe%C3%A7a%20no%20futuro%20do%20JavaScript.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Dominando JavaScript Com Jquery - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Dominando%20JavaScript%20Com%20Jquery%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Dominando JavaScript Com Jquery",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Dominando%20JavaScript%20Com%20Jquery%20.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Eloquent javascript",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Eloquent%20javascript.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Falando de Grails Altíssima produtividade no desenvolvimento web - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Falando%20de%20Grails%20Alt%C3%ADssima%20produtividade%20no%20desenvolvimento%20web%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Guilherme Silveira, Mário Amaral - Java SE 8 Programmer I - O guia para sua Certificação Oracle Certified Associate",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Guilherme%20Silveira%2C%20M%C3%A1rio%20Amaral%20-%20Java%20SE%208%20Programmer%20I%20-%20O%20guia%20para%20sua%20Certifica%C3%A7%C3%A3o%20Oracle%20Certified%20Associate.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "HTML5 e CSS3 - Domine a web do futuro",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/HTML5%20e%20CSS3%20-%20Domine%20a%20web%20do%20futuro.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "html5 e css3 domine a web do futuro - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/html5%20e%20css3%20domine%20a%20web%20do%20futuro%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "HTML5CanvasNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/HTML5CanvasNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "HTML5NotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/HTML5NotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "HTML5_e_CSS3_com_farinha_e_pimenta",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/HTML5_e_CSS3_com_farinha_e_pimenta.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Html5_e_css3_domine_a_web_do_futuro_fran (1)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Html5_e_css3_domine_a_web_do_futuro_fran%20(1).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java 8 Pratico Lambdas Streams e os Novos Recursos da Linguagem - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java%208%20Pratico%20Lambdas%20Streams%20e%20os%20Novos%20Recursos%20da%20Linguagem%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java 8 Pratico Lambdas Streams e os Novos Recursos da Linguagem",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java%208%20Pratico%20Lambdas%20Streams%20e%20os%20Novos%20Recursos%20da%20Linguagem.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java e Orientação a Objetos - Caelum, Curso FJ-11",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java%20e%20Orienta%C3%A7%C3%A3o%20a%20Objetos%20-%20Caelum%2C%20Curso%20FJ-11.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java e Orientações a Objetos",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java%20e%20Orienta%C3%A7%C3%B5es%20a%20Objetos.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java para Desenvolvimento Web - Caelum, FJ-21",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java%20para%20Desenvolvimento%20Web%20-%20Caelum%2C%20FJ-21.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java SE 7 Programmer I O guia para sua certificação Oracle Certified Associate - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java%20SE%207%20Programmer%20I%20O%20guia%20para%20sua%20certifica%C3%A7%C3%A3o%20Oracle%20Certified%20Associate%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JavaFX - Interfaces com qualidade para aplicacoes desktop",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JavaFX%20-%20Interfaces%20com%20qualidade%20para%20aplicacoes%20desktop.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JavaFX Interfaces com qualidade para aplicacoes desktop - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JavaFX%20Interfaces%20com%20qualidade%20para%20aplicacoes%20desktop%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JavaNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JavaNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Javascript - Cangaceiro JavaScript - Uma Aventura no Sertão da Programacao (1)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Javascript%20-%20Cangaceiro%20JavaScript%20-%20Uma%20Aventura%20no%20Sert%C3%A3o%20da%20Programacao%20(1).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JavaScript de Alto Desempenho (Nicholas C. Zakas)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JavaScript%20de%20Alto%20Desempenho%20(Nicholas%20C.%20Zakas)%20.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JavaScript O Guia Definitivo_v2 (1)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JavaScript%20O%20Guia%20Definitivo_v2%20(1).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JavaScriptNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JavaScriptNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Java_Programming",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Java_Programming.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "jQuery Mobile - Desenvolva interfaces para multiplos dispositivos",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/jQuery%20Mobile%20-%20Desenvolva%20interfaces%20para%20multiplos%20dispositivos.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "JSF Eficaz - As melhores práticas para o desenvolvedor web Java - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/JSF%20Eficaz%20-%20As%20melhores%20pr%C3%A1ticas%20para%20o%20desenvolvedor%20web%20Java%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Java",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Java.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Javascript",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Javascript.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de PHP",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20PHP.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Python (Automatize tarefas maçantes)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Python%20(Automatize%20tarefas%20ma%C3%A7antes).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Python (desenvolvedores)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Python%20(desenvolvedores).pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Livro de Python",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Livro%20de%20Python.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Logica de programacao - Crie seus primeiros programas usando javascript e html - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Logica%20de%20programacao%20-%20Crie%20seus%20primeiros%20programas%20usando%20javascript%20e%20html%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Luiz Eduardo Borges - Python para Desenvolvedores - 2° Edição",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Luiz%20Eduardo%20Borges%20-%20Python%20para%20Desenvolvedores%20-%202%C2%B0%20Edi%C3%A7%C3%A3o.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Meteor - Criando aplicações web real-time com JavaScript - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Meteor%20-%20Criando%20aplica%C3%A7%C3%B5es%20web%20real-time%20com%20JavaScript%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MundoJ - Java efetivo - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MundoJ%20-%20Java%20efetivo%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MundoJ Segurança com Java - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MundoJ%20Seguran%C3%A7a%20com%20Java%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "MundoJ Segurança com Java",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/MundoJ%20Seguran%C3%A7a%20com%20Java.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Paul Deitel, Harvey Deitel - Java como Programar - 10° Edição",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Paul%20Deitel%2C%20Harvey%20Deitel%20-%20Java%20como%20Programar%20-%2010%C2%B0%20Edi%C3%A7%C3%A3o.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PaulDeitel-HarveyDeitel-Java-ComoProgramar-10Edicao",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PaulDeitel-HarveyDeitel-Java-ComoProgramar-10Edicao.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PHP e Laravel - Crie aplicações web como um verdadeiro artesão",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PHP%20e%20Laravel%20-%20Crie%20aplica%C3%A7%C3%B5es%20web%20como%20um%20verdadeiro%20artes%C3%A3o.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PHP e Laravel Crie aplicações web como um verdadeiro artesão - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PHP%20e%20Laravel%20Crie%20aplica%C3%A7%C3%B5es%20web%20como%20um%20verdadeiro%20artes%C3%A3o%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "php",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/php.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PHPNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PHPNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "phptherightway",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/phptherightway.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Play Framework - Java para web sem servlets e com diversao - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Play%20Framework%20-%20Java%20para%20web%20sem%20servlets%20e%20com%20diversao%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Play Framework - Java para web sem servlets e com diversao",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Play%20Framework%20-%20Java%20para%20web%20sem%20servlets%20e%20com%20diversao.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Primeiros passos com React (Stoyan Stefanov)",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Primeiros%20passos%20com%20React%20(Stoyan%20Stefanov)%20.pdf",
+                  "level": "beginner",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Python - Escreva seus primeiros programas - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Python%20-%20Escreva%20seus%20primeiros%20programas%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Python - Escreva seus primeiros programas",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Python%20-%20Escreva%20seus%20primeiros%20programas.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Python para Todos",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Python%20para%20Todos.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "PythonNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/PythonNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "pythonoo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/pythonoo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Python_Programming",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Python_Programming.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "React Native Desenvolvimento De Aplicativos Mobile Com React - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/React%20Native%20Desenvolvimento%20De%20Aplicativos%20Mobile%20Com%20React%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "ReactJSNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/ReactJSNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "ReactNativeNotesForProfessionals",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/ReactNativeNotesForProfessionals.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Refatorando com padroes de projeto - Um guia em ruby",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Refatorando%20com%20padroes%20de%20projeto%20-%20Um%20guia%20em%20ruby.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "RSpec - Crie especificacoes executaveis em Ruby",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/RSpec%20-%20Crie%20especificacoes%20executaveis%20em%20Ruby.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Ruby - Aprenda a programar na linguagem mais divertida - Casa do Codigo",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Ruby%20-%20Aprenda%20a%20programar%20na%20linguagem%20mais%20divertida%20-%20Casa%20do%20Codigo.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                },
+                {
+                  "title": "Ruby - Aprenda a programar na linguagem mais divertida",
+                  "author": "Desconhecido",
+                  "category": "Padrões e Design de Software",
+                  "path": "https://github.com/Juerda/Engenharia-de-Software-Livros-em-PDF/blob/main/Ruby%20-%20Aprenda%20a%20programar%20na%20linguagem%20mais%20divertida.pdf",
+                  "level": "advanced",
+                  "source": "github_repo"
+                }
+  ]
+}
+]
