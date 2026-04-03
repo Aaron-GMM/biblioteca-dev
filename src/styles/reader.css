@@ -1,0 +1,164 @@
+/* Container do Leitor - Respeita a altura abaixo da navbar */
+.modern-reader-wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: #121212;
+    height: calc(100vh - 73px); /* 73px é a altura aproximada da navbar */
+    overflow: hidden;
+}
+
+/* =========================================
+   BARRAS DE CONTROLE (TOPO E RODAPÉ)
+========================================= */
+.reader-header, .reader-controls {
+    background: #1e1e1e;
+    border-bottom: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    flex-shrink: 0; /* Impede que a barra seja esmagada */
+    z-index: 10;
+}
+
+.reader-controls {
+    border-bottom: none;
+    border-top: 1px solid #333;
+    justify-content: center;
+    gap: 40px;
+}
+
+.reader-title-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.book-display-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #e0e0e0;
+    margin: 0;
+    max-width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.spacer { width: 100px; }
+
+/* =========================================
+   ÁREA CENTRAL DO PDF (Onde rola a página)
+========================================= */
+.reader-main {
+    flex: 1; /* Ocupa todo o espaço entre o topo e o rodapé */
+    overflow-y: auto; /* A rolagem acontece APENAS aqui dentro */
+    display: flex;
+    justify-content: center;
+    background-color: #0a0a0a;
+    padding: 20px 0;
+}
+
+.canvas-container {
+    display: flex;
+    justify-content: center;
+}
+
+#pdf-render {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    border: 1px solid #333;
+}
+
+/* =========================================
+   BOTÕES FUNCIONAIS (Estilo da Imagem)
+========================================= */
+button {
+    font-family: inherit;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    transition: background 0.1s;
+}
+
+/* Botão com Texto (ex: Voltar) */
+.cute-btn {
+    background: transparent;
+    border: 1px solid #444;
+    color: #e0e0e0;
+    padding: 6px 12px;
+    border-radius: 4px; /* Quadrado funcional */
+    font-size: 0.85rem;
+}
+
+/* Botões de Ícone Quadrados (Exato como na sua foto) */
+.cute-icon-btn {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: #e0e0e0;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px; /* Sem cantos redondos infantis */
+}
+
+.cute-btn:hover, .cute-icon-btn:hover {
+    background: #444;
+}
+
+.cute-icon-btn:active {
+    background: #555;
+    transform: scale(0.98);
+}
+
+/* Agrupamentos de Controles */
+.control-group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* Indicador de Página Simples */
+.page-indicator {
+    font-family: -apple-system, sans-serif;
+    font-size: 0.95rem;
+    color: #ccc;
+    padding: 0 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.current-page { color: #fff; font-weight: 500; }
+.total-pages { color: #888; }
+.separator { color: #666; }
+
+/* Loader Simples */
+.modern-loader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    color: #888;
+    margin-top: 10vh;
+}
+
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 3px solid #333;
+    border-top-color: #fff;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .reader-header { flex-direction: column; gap: 10px; }
+    .spacer, .btn-back span { display: none; }
+    .btn-back { position: absolute; left: 10px; top: 10px; }
+}
