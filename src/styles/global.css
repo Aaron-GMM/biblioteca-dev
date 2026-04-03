@@ -234,7 +234,80 @@ input#search-input:focus, input#devkindle-title-input:focus {
     border-color: #e0e0e0;
     font-weight: 600;
 }
+.friendly-notice {
+    background: rgba(0, 210, 255, 0.05);
+    border: 1px solid rgba(0, 210, 255, 0.2);
+    color: var(--text-main);
+    padding: 12px 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 0.95rem;
+    margin-bottom: 2rem;
+}
 
+.friendly-notice .material-symbols-rounded {
+    color: var(--accent);
+    font-size: 24px;
+}
+
+.site-footer {
+    border-top: 1px solid var(--border);
+    padding: 2rem 5%;
+    margin-top: 4rem;
+    background: #151515;
+    text-align: center;
+}
+
+.footer-content a { color: var(--text-main); text-decoration: none; transition: color 0.2s;}
+.footer-content a:hover { color: var(--accent); }
+.footer-links { display: flex; justify-content: center; align-items: center; gap: 20px; margin-top: 15px; flex-wrap: wrap; }
+.footer-links a, .btn-pix { display: flex; align-items: center; gap: 6px; font-size: 0.9rem; }
+.btn-pix { background: transparent; color: #ffb703; border: 1px solid rgba(255, 183, 3, 0.4); padding: 6px 12px; border-radius: 4px; }
+.btn-pix:hover { background: rgba(255, 183, 3, 0.1); border-color: #ffb703; }
+
+/* =========================================
+   MODAL PIX
+========================================= */
+.pix-modal {
+    display: none; position: fixed; z-index: 2000; left: 0; top: 0; width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.8); backdrop-filter: blur(5px); justify-content: center; align-items: center;
+}
+.pix-modal-content {
+    background-color: var(--bg-card); margin: auto; padding: 30px; border: 1px solid var(--border);
+    border-radius: 12px; width: 90%; max-width: 400px; position: relative; box-shadow: 0 10px 30px rgba(0,0,0,0.8);
+}
+.close-modal { color: #aaa; position: absolute; top: 10px; right: 20px; font-size: 28px; font-weight: bold; cursor: pointer; }
+.close-modal:hover { color: #fff; }
+
+/* =========================================
+   ESTILOS NOVOS DA HOME (Histórico, Botões)
+========================================= */
+.btn-start-huge {
+    background: var(--accent); color: #000; font-weight: bold; padding: 12px 30px; 
+    font-size: 1.1rem; border-radius: 50px; margin-top: 1.5rem; display: inline-flex;
+}
+.btn-start-huge:hover { transform: scale(1.05); box-shadow: 0 0 15px rgba(0, 210, 255, 0.5); }
+
+.github-repo-link {
+    display: flex; align-items: center; justify-content: center; gap: 5px;
+    background: #222; color: #aaa; text-decoration: none; padding: 6px; border-radius: 4px;
+    font-size: 0.8rem; margin-top: auto; border: 1px solid #333; transition: 0.2s;
+}
+.github-repo-link:hover { background: #333; color: #fff; border-color: #555; }
+
+.special-section { margin-bottom: 3rem; }
+.section-title { display: flex; align-items: center; gap: 10px; font-size: 1.3rem; margin-bottom: 5px; }
+.section-subtitle { color: var(--text-muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
+.section-divider { border: 0; border-top: 1px solid #333; margin: 3rem 0; }
+.select-category-prompt { text-align: center; padding: 2rem; background: #1a1a1a; border-radius: 8px; border: 1px dashed #444; }
+
+/* Card History Customizado */
+.history-card { border-color: var(--accent); background: linear-gradient(180deg, #1e1e1e, #111); justify-content: space-between; }
+.progress-bar-bg { background: #333; width: 100%; height: 4px; border-radius: 2px; margin-bottom: 10px; }
+.progress-bar-fill { background: var(--accent); height: 100%; border-radius: 2px; box-shadow: 0 0 5px var(--accent); }
+.resume-badge { background: rgba(0, 210, 255, 0.1); color: var(--accent); font-size: 0.75rem; text-align: center; padding: 4px; border-radius: 4px; font-weight: bold; }
 /* Em telas muito pequenas (celular), podemos esconder as setas, já que lá é natural passar o dedo */
 @media (max-width: 600px) {
     .carousel-btn {
