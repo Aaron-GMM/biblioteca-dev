@@ -1,6 +1,6 @@
 export default function ReaderPage(bookTitle) {
     return `
-        <div class="modern-reader-wrapper">
+        <div class="modern-reader-wrapper" id="reader-container">
             
             <header class="reader-header glass-panel">
                 <button class="cute-btn btn-back" id="btn-close" title="Voltar ao Acervo">
@@ -29,6 +29,9 @@ export default function ReaderPage(bookTitle) {
                 <div class="control-group zoom-controls">
                     <button class="cute-icon-btn" id="btn-zoom-out" title="Diminuir Zoom">
                         <span class="material-symbols-rounded">zoom_out</span>
+                    </button>
+                    <button class="cute-icon-btn" id="btn-fullscreen" title="Tela Cheia">
+                        <span class="material-symbols-rounded">fullscreen</span>
                     </button>
                     <button class="cute-icon-btn" id="btn-zoom-in" title="Aumentar Zoom">
                         <span class="material-symbols-rounded">zoom_in</span>

@@ -153,7 +153,45 @@ button {
     border-radius: 50%;
     animation: spin 1s linear infinite;
 }
+/* =========================================
+   MODO IMERSIVO (AUTO-HIDE CONTROLS)
+========================================= */
 
+/* Transições Suaves */
+.reader-header, .reader-controls {
+    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.3s ease;
+}
+
+/* Estado Escondido */
+.hide-controls .reader-header {
+    transform: translateY(-100%);
+    opacity: 0;
+    pointer-events: none; /* Impede cliques acidentais quando escondido */
+}
+
+.hide-controls .reader-controls {
+    transform: translateY(100%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Esconde o mouse no modo imersivo para não atrapalhar a leitura */
+.hide-controls {
+    cursor: none !important;
+}
+
+/* Ajuste para quando estiver em Fullscreen Nativo */
+.modern-reader-wrapper:fullscreen {
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.modern-reader-wrapper:fullscreen .reader-main {
+    height: 100vh;
+    padding: 0;
+}
 @keyframes spin { to { transform: rotate(360deg); } }
 
 /* Mobile */
