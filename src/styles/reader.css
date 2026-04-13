@@ -52,8 +52,8 @@
 ========================================= */
 .reader-main {
     flex: 1; /* Ocupa todo o espaço entre o topo e o rodapé */
-    overflow-y: auto; /* A rolagem acontece APENAS aqui dentro */
-    display: flex;
+    overflow: auto; /* A rolagem acontece APENAS aqui dentro */
+    /* display: flex; */
     justify-content: center;
     background-color: #0a0a0a;
     padding: 20px 0;
@@ -62,10 +62,10 @@
 .canvas-container {
     display: flex;
     justify-content: center;
+    min-width: min-content;
 }
 
 #pdf-render {
-    max-width: 100%;
     height: auto;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
     border: 1px solid #333;
