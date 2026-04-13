@@ -11,7 +11,7 @@ export default function Layout() {
 
         <footer class="site-footer">
             <div class="footer-content">
-                <p>Curadoria e Desenvolvimento por <strong><a href="https://github.com/Aaron-GMM" target="_blank">Aaron GMM</a></strong></p>
+                <p>Cuidadosamente  Desenvolvimento por <strong><a href="https://github.com/Aaron-GMM" target="_blank">Aaron GMM</a></strong></p>
                 <div class="footer-links">
                     <a href="https://github.com/Aaron-GMM/biblioteca-dev" target="_blank"><span class="material-symbols-rounded">folder_open</span> Repositório Oficial</a>
                     <button id="btn-pix" class="btn-pix"><span class="material-symbols-rounded">local_cafe</span> Pague um café ao Dev</button>
