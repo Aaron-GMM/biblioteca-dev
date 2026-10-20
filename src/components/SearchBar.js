@@ -1,12 +1,16 @@
 export default function SearchBar() {
     return `
-        <div class="search-container" style="display: flex; gap: 10px; width: 100%; max-width: 400px;">
+        <div class="search-container">
+            <span class="material-symbols-rounded search-icon">search</span>
             <input 
                 type="text" 
                 id="search-input" 
-                placeholder="Buscar livro, autor ou categoria..." 
-                style="width: 100%; padding: 0.5rem 1rem; border-radius: 20px; border: 1px solid var(--border); background: var(--bg-card); color: var(--text-main); outline: none;"
+                placeholder="Buscar livro, autor ou tecnologia..." 
+                autocomplete="off"
             >
+            <button type="button" id="btn-clear-search" class="search-clear-btn" title="Limpar busca" style="display: none;">
+                <span class="material-symbols-rounded">close</span>
+            </button>
         </div>
     `;
 }

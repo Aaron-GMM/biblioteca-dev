@@ -1,62 +1,184 @@
-/* Container do Leitor - Respeita a altura abaixo da navbar */
+/* =========================================
+   CONTAINER PRINCIPAL DO LEITOR (FLAT & CLEAN)
+========================================= */
 .modern-reader-wrapper {
     display: flex;
     flex-direction: column;
-    background-color: #121212;
-    height: calc(100vh - 73px); /* 73px é a altura aproximada da navbar */
+    background-color: var(--bg-dark);
+    height: calc(100vh - 64px);
     overflow: hidden;
 }
 
 /* =========================================
-   BARRAS DE CONTROLE (TOPO E RODAPÉ)
+   MODOS DE CONFORTO VISUAL DO PDF
+========================================= */
+.modern-reader-wrapper[data-pdf-theme="original"] .reader-main {
+    background-color: #1b1b1e;
+}
+
+.modern-reader-wrapper[data-pdf-theme="sepia"] .reader-main {
+    background-color: #231f1a;
+}
+
+.modern-reader-wrapper[data-pdf-theme="sepia"] #pdf-render {
+    filter: sepia(0.35) contrast(0.95) brightness(0.96);
+}
+
+.modern-reader-wrapper[data-pdf-theme="night"] .reader-main {
+    background-color: #121214;
+}
+
+.modern-reader-wrapper[data-pdf-theme="night"] #pdf-render {
+    filter: invert(0.88) hue-rotate(180deg) contrast(1.02);
+}
+
+/* =========================================
+   BARRAS DE CONTROLE (TOPO E RODAPÉ - FLAT)
 ========================================= */
 .reader-header, .reader-controls {
-    background: #1e1e1e;
-    border-bottom: 1px solid #333;
+    background: var(--bg-card);
+    border-bottom: 1px solid var(--border);
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
-    flex-shrink: 0; /* Impede que a barra seja esmagada */
-    z-index: 10;
+    gap: 1rem;
+    padding: 8px 20px;
+    flex-shrink: 0;
+    z-index: 20;
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.25s ease;
 }
 
 .reader-controls {
     border-bottom: none;
-    border-top: 1px solid #333;
-    justify-content: center;
-    gap: 40px;
+    border-top: 1px solid var(--border);
+    justify-content: space-between;
+}
+
+.reader-header-left {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    min-width: 0;
 }
 
 .reader-title-group {
     display: flex;
-    align-items: center;
-    gap: 15px;
+    flex-direction: column;
+    min-width: 0;
 }
 
 .book-display-title {
-    font-size: 1rem;
-    font-weight: 500;
-    color: #e0e0e0;
+    font-size: 0.92rem;
+    font-weight: 600;
+    color: var(--text-main);
     margin: 0;
-    max-width: 400px;
+    max-width: 440px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
-.spacer { width: 100px; }
+.book-display-subtitle {
+    font-size: 0.74rem;
+    color: var(--text-muted);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.reader-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+/* Widget Pomodoro Discreto */
+.pomodoro-widget {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    color: var(--text-main);
+}
+
+.pomodoro-icon {
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+.pomodoro-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 2px;
+    border-radius: 4px;
+}
+
+.pomodoro-btn:hover {
+    color: var(--text-main);
+}
+
+.pomodoro-btn .material-symbols-rounded {
+    font-size: 1rem;
+}
+
+/* Seletor de Tema do PDF */
+.theme-switcher {
+    display: inline-flex;
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 2px;
+    gap: 2px;
+}
+
+.theme-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 4px 9px;
+    border-radius: 4px;
+    font-size: 0.76rem;
+    font-weight: 500;
+    gap: 4px;
+}
+
+.theme-btn .material-symbols-rounded {
+    font-size: 0.98rem;
+}
+
+.theme-btn:hover {
+    color: var(--text-main);
+}
+
+.theme-btn.active {
+    background: var(--bg-elevated);
+    color: var(--text-main);
+    font-weight: 600;
+}
 
 /* =========================================
-   ÁREA CENTRAL DO PDF (Onde rola a página)
+   ÁREA DE TRABALHO DO LEITOR + DRAWER LATERAL
 ========================================= */
+.reader-workspace {
+    flex: 1;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
 .reader-main {
-    flex: 1; /* Ocupa todo o espaço entre o topo e o rodapé */
-    overflow: auto; /* A rolagem acontece APENAS aqui dentro */
-    /* display: flex; */
+    flex: 1;
+    overflow: auto;
     justify-content: center;
-    background-color: #0a0a0a;
-    padding: 20px 0;
+    padding: 24px 16px;
+    transition: background-color 0.25s ease;
 }
 
 .canvas-container {
@@ -67,12 +189,198 @@
 
 #pdf-render {
     height: auto;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
-    border: 1px solid #333;
+    border: 1px solid var(--border);
+    border-radius: 4px;
+    transition: filter 0.25s ease;
+}
+
+/* Painel Lateral: Caderno de Estudos & Marcadores */
+.reader-drawer {
+    width: 0;
+    background: var(--bg-card);
+    border-left: 0 solid var(--border);
+    overflow-x: hidden;
+    overflow-y: auto;
+    transition: width 0.25s ease, border-left-width 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+.reader-drawer.open {
+    width: 330px;
+    border-left-width: 1px;
+}
+
+.drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px 16px;
+    border-bottom: 1px solid var(--border);
+}
+
+.drawer-header h3 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.94rem;
+    color: var(--text-main);
+}
+
+.drawer-header h3 .material-symbols-rounded {
+    color: var(--accent);
+}
+
+.drawer-body {
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.drawer-section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.drawer-section-header h4 {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.84rem;
+    color: var(--text-main);
+}
+
+.drawer-section-header h4 .material-symbols-rounded {
+    font-size: 1rem;
+    color: var(--text-muted);
+}
+
+.drawer-divider {
+    border: 0;
+    border-top: 1px solid var(--border);
+}
+
+.bookmarks-chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+}
+
+.bookmark-chip {
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 0.76rem;
+    gap: 4px;
+}
+
+.bookmark-chip .material-symbols-rounded {
+    font-size: 0.88rem;
+}
+
+.bookmark-chip.current, .bookmark-chip:hover {
+    border-color: var(--border-hover);
+    color: var(--text-main);
+    background: var(--bg-elevated);
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.note-form textarea {
+    width: 100%;
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: var(--text-main);
+    font-family: inherit;
+    font-size: 0.84rem;
+    resize: vertical;
+    outline: none;
+}
+
+.note-form textarea:focus {
+    border-color: #52525b;
+}
+
+.btn-save-note {
+    width: 100%;
+    background: var(--bg-elevated);
+    border-color: var(--border-hover);
+    color: var(--text-main);
+    font-weight: 500;
+}
+
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.note-card {
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.note-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6px;
+}
+
+.note-page-badge {
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    font-size: 0.72rem;
+    font-weight: 500;
+    padding: 2px 8px;
+    border-radius: 4px;
+}
+
+.note-delete-btn {
+    background: transparent;
+    border: none;
+    color: var(--text-muted);
+    padding: 2px;
+}
+
+.note-delete-btn:hover {
+    color: #e57373;
+}
+
+.note-delete-btn .material-symbols-rounded {
+    font-size: 1rem;
+}
+
+.note-card-text {
+    font-size: 0.83rem;
+    color: var(--text-main);
+    white-space: pre-wrap;
+    line-height: 1.45;
+}
+
+.drawer-empty {
+    font-size: 0.8rem;
+    color: var(--text-muted);
 }
 
 /* =========================================
-   BOTÕES FUNCIONAIS (Estilo da Imagem)
+   BOTÕES E CONTROLES DE PAGINAÇÃO / SLIDER
 ========================================= */
 button {
     font-family: inherit;
@@ -80,94 +388,130 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
-    transition: background 0.1s;
+    gap: 6px;
+    transition: all 0.15s ease;
 }
 
-/* Botão com Texto (ex: Voltar) */
 .cute-btn {
-    background: transparent;
-    border: 1px solid #444;
-    color: #e0e0e0;
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text-main);
     padding: 6px 12px;
-    border-radius: 4px; /* Quadrado funcional */
-    font-size: 0.85rem;
+    border-radius: 6px;
+    font-size: 0.83rem;
+    font-weight: 500;
 }
 
-/* Botões de Ícone Quadrados (Exato como na sua foto) */
+.cute-btn.btn-xs {
+    padding: 3px 8px;
+    font-size: 0.74rem;
+}
+
 .cute-icon-btn {
-    background: #2a2a2a;
-    border: 1px solid #444;
-    color: #e0e0e0;
-    width: 36px;
-    height: 36px;
-    border-radius: 4px; /* Sem cantos redondos infantis */
+    background: var(--bg-elevated);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    width: 34px;
+    height: 34px;
+    border-radius: 6px;
 }
 
 .cute-btn:hover, .cute-icon-btn:hover {
-    background: #444;
+    background: #2f2f35;
+    border-color: var(--border-hover);
 }
 
-.cute-icon-btn:active {
-    background: #555;
-    transform: scale(0.98);
+.cute-icon-btn.active-accent {
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
-/* Agrupamentos de Controles */
 .control-group {
     display: flex;
     align-items: center;
-    gap: 6px;
+    gap: 8px;
 }
 
-/* Indicador de Página Simples */
+.zoom-indicator {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    min-width: 44px;
+    text-align: center;
+}
+
+.reader-progress-slider-group {
+    flex: 1;
+    max-width: 340px;
+}
+
+.page-slider {
+    width: 100%;
+    accent-color: var(--accent);
+    cursor: pointer;
+}
+
 .page-indicator {
-    font-family: -apple-system, sans-serif;
-    font-size: 0.95rem;
-    color: #ccc;
-    padding: 0 10px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    padding: 0 6px;
     display: flex;
-    gap: 5px;
+    gap: 6px;
     align-items: center;
 }
 
-.current-page { color: #fff; font-weight: 500; }
-.total-pages { color: #888; }
-.separator { color: #666; }
+.page-num-input {
+    width: 52px;
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    border-radius: 5px;
+    padding: 4px 6px;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.82rem;
+}
 
-/* Loader Simples */
+.page-num-input:focus {
+    outline: none;
+    border-color: #52525b;
+}
+
+.total-pages {
+    font-family: 'JetBrains Mono', monospace;
+    color: var(--text-muted);
+}
+
+/* Loader */
 .modern-loader {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    color: #888;
-    margin-top: 10vh;
+    gap: 12px;
+    color: var(--text-main);
+    margin-top: 12vh;
+    text-align: center;
+}
+
+.loader-sub {
+    font-size: 0.8rem;
+    color: var(--text-muted);
 }
 
 .spinner {
     width: 30px;
     height: 30px;
-    border: 3px solid #333;
-    border-top-color: #fff;
+    border: 2px solid var(--border);
+    border-top-color: var(--text-main);
     border-radius: 50%;
-    animation: spin 1s linear infinite;
-}
-/* =========================================
-   MODO IMERSIVO (AUTO-HIDE CONTROLS)
-========================================= */
-
-/* Transições Suaves */
-.reader-header, .reader-controls {
-    transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1), 
-                opacity 0.3s ease;
+    animation: spin 0.9s linear infinite;
 }
 
-/* Estado Escondido */
+/* Auto-hide em Fullscreen */
 .hide-controls .reader-header {
     transform: translateY(-100%);
     opacity: 0;
-    pointer-events: none; /* Impede cliques acidentais quando escondido */
+    pointer-events: none;
 }
 
 .hide-controls .reader-controls {
@@ -176,27 +520,85 @@ button {
     pointer-events: none;
 }
 
-/* Esconde o mouse no modo imersivo para não atrapalhar a leitura */
 .hide-controls {
     cursor: none !important;
 }
 
-/* Ajuste para quando estiver em Fullscreen Nativo */
 .modern-reader-wrapper:fullscreen {
-    background-color: #000;
     width: 100vw;
     height: 100vh;
 }
 
-.modern-reader-wrapper:fullscreen .reader-main {
-    height: 100vh;
-    padding: 0;
+/* Sumário do PDF (Outline) */
+.outline-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
 }
+
+.outline-item-btn {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    width: 100%;
+    text-align: left;
+    background: var(--bg-dark);
+    border: 1px solid var(--border);
+    color: var(--text-main);
+    padding: 8px 10px;
+    border-radius: 6px;
+    font-size: 0.82rem;
+    line-height: 1.35;
+    transition: all 0.15s ease;
+}
+
+.outline-item-btn:hover {
+    background: var(--bg-elevated);
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.outline-item-btn .material-symbols-rounded {
+    font-size: 1rem;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    margin-top: 1px;
+}
+
+.outline-item-btn:hover .material-symbols-rounded {
+    color: var(--accent);
+}
+
+.reader-action-btn.completed-active {
+    color: #84a98c;
+    border-color: rgba(132, 169, 140, 0.45);
+    background: rgba(132, 169, 140, 0.12);
+}
+
 @keyframes spin { to { transform: rotate(360deg); } }
 
-/* Mobile */
-@media (max-width: 768px) {
-    .reader-header { flex-direction: column; gap: 10px; }
-    .spacer, .btn-back span { display: none; }
-    .btn-back { position: absolute; left: 10px; top: 10px; }
+@media (max-width: 900px) {
+    .reader-progress-slider-group,
+    .pomodoro-widget,
+    .theme-btn-label {
+        display: none;
+    }
+    .reader-drawer.open {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: 30;
+        width: 300px;
+        box-shadow: -8px 0 24px rgba(0,0,0,0.5);
+    }
+}
+
+@media (max-width: 640px) {
+    .book-display-subtitle {
+        display: none;
+    }
+    .book-display-title {
+        max-width: 160px;
+    }
 }
