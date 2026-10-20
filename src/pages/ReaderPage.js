@@ -1,60 +1,88 @@
-export default function ReaderPage(bookTitle) {
+import { ReaderHeader, ReaderFooter } from '../components/ReaderControls.js';
+
+export default function ReaderPage({
+    bookTitle,
+    bookAuthor = '',
+    bookCategory = '',
+    isSaved = false,
+    isCompleted = false,
+    isBookmarked = false,
+    currentTheme = 'original'
+}) {
     return `
-        <div class="modern-reader-wrapper" id="reader-container">
-            
-            <header class="reader-header glass-panel">
-                <button class="cute-btn btn-back" id="btn-close" title="Voltar ao Acervo">
-                    <span class="material-symbols-rounded">arrow_back</span>
-                    <span>Voltar</span>
-                </button>
-                
-                <div class="reader-title-group">
-                    <h2 class="book-display-title">${bookTitle || 'Lendo agora...'}</h2>
-                </div>
-                
-                <div class="spacer"></div>
-            </header>
+        <div class="modern-reader-wrapper" id="reader-container" data-pdf-theme="${currentTheme}">
+            ${ReaderHeader({ bookTitle, bookAuthor, bookCategory, isSaved, isCompleted, isBookmarked, currentTheme })}
 
-            <main class="reader-main">
-                <div id="loading-indicator" class="modern-loader">
-                    <div class="spinner"></div>
-                    <p>Preparando seu livro...</p>
-                </div>
-                <div class="canvas-container">
-                    <canvas id="pdf-render"></canvas>
-                </div>
-            </main>
-
-            <footer class="reader-controls glass-panel">
-                <div class="control-group zoom-controls">
-                    <button class="cute-icon-btn" id="btn-zoom-out" title="Diminuir Zoom">
-                        <span class="material-symbols-rounded">zoom_out</span>
-                    </button>
-                    <button class="cute-icon-btn" id="btn-fullscreen" title="Tela Cheia">
-                        <span class="material-symbols-rounded">fullscreen</span>
-                    </button>
-                    <button class="cute-icon-btn" id="btn-zoom-in" title="Aumentar Zoom">
-                        <span class="material-symbols-rounded">zoom_in</span>
-                    </button>
-                </div>
-
-                <div class="control-group pagination-controls">
-                    <button class="cute-icon-btn btn-page" id="btn-prev" title="Página Anterior">
-                        <span class="material-symbols-rounded">chevron_left</span>
-                    </button>
-                    
-                    <div class="page-indicator">
-                        <span id="page-num" class="current-page">0</span>
-                        <span class="separator">/</span>
-                        <span id="page-count" class="total-pages">0</span>
+            <div class="reader-workspace">
+                <main class="reader-main" id="reader-scroll-container">
+                    <div id="loading-indicator" class="modern-loader">
+                        <div class="spinner"></div>
+                        <p>Preparando seu livro para leitura...</p>
+                        <span class="loader-sub">Dica: Use as setas ⬅ ➡ do teclado para virar páginas</span>
                     </div>
-                    
-                    <button class="cute-icon-btn btn-page" id="btn-next" title="Próxima Página">
-                        <span class="material-symbols-rounded">chevron_right</span>
-                    </button>
-                </div>
-            </footer>
+                    <div class="canvas-container">
+                        <canvas id="pdf-render"></canvas>
+                    </div>
+                </main>
 
+                <!-- Painel Lateral Retrátil: Sumário, Marcadores & Caderno de Notas -->
+                <aside class="reader-drawer" id="reader-drawer" aria-hidden="true">
+                    <div class="drawer-header">
+                        <h3><span class="material-symbols-rounded">menu_book</span> Apoio de Estudo</h3>
+                        <button class="cute-icon-btn" id="btn-close-drawer" title="Fechar Painel">
+                            <span class="material-symbols-rounded">close</span>
+                        </button>
+                    </div>
+
+                    <div class="drawer-body">
+                        <!-- Sumário do PDF (aparece automaticamente se o PDF tiver índice) -->
+                        <section class="drawer-section" id="outline-section" style="display: none;">
+                            <div class="drawer-section-header">
+                                <h4><span class="material-symbols-rounded">toc</span> Capítulos do Livro</h4>
+                            </div>
+                            <div id="outline-list" class="outline-list"></div>
+                            <hr class="drawer-divider" style="margin-top: 14px;">
+                        </section>
+
+                        <section class="drawer-section">
+                            <div class="drawer-section-header">
+                                <h4><span class="material-symbols-rounded">bookmarks</span> Páginas Marcadas</h4>
+                                <button class="cute-btn btn-xs" id="btn-drawer-bookmark-current">
+                                    + Marcar pág. atual
+                                </button>
+                            </div>
+                            <div id="bookmarks-list" class="bookmarks-chip-list"></div>
+                        </section>
+
+                        <hr class="drawer-divider">
+
+                        <section class="drawer-section">
+                            <div class="drawer-section-header">
+                                <h4><span class="material-symbols-rounded">edit_note</span> Anotações deste Livro</h4>
+                                <button class="cute-btn btn-xs" id="btn-export-notes" title="Baixar anotações em arquivo Markdown (.md)">
+                                    <span class="material-symbols-rounded">download</span> Exportar .md
+                                </button>
+                            </div>
+
+                            <form id="note-form" class="note-form">
+                                <textarea 
+                                    id="note-input" 
+                                    rows="3" 
+                                    placeholder="Escreva um resumo, insight ou dúvida sobre esta página..."
+                                ></textarea>
+                                <button type="submit" class="cute-btn btn-save-note">
+                                    <span class="material-symbols-rounded">add_comment</span>
+                                    Salvar Nota na Página Atual
+                                </button>
+                            </form>
+
+                            <div id="notes-list" class="notes-list"></div>
+                        </section>
+                    </div>
+                </aside>
+            </div>
+
+            ${ReaderFooter()}
         </div>
     `;
 }
