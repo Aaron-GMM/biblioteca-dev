@@ -1,20 +1,51 @@
+import SearchBar from './SearchBar.js';
+import { getSavedBookPaths } from '../services/storageService.js';
+
 export default function Layout() {
+    const savedCount = getSavedBookPaths().length;
+
     return `
-        <nav class="navbar">
-            <div class="logo">BibliotecaDev</div>
-            <div class="search-container">
-                <input type="text" id="search-input" placeholder="Buscar título, autor ou categoria...">
+        <nav class="navbar" id="main-navbar">
+            <div class="navbar-brand-group">
+                <a href="#home" class="logo" id="logo-link">
+                    <span class="logo-icon material-symbols-rounded">local_library</span>
+                    <span>Biblioteca<span class="logo-highlight">Dev</span></span>
+                </a>
+
+                <div class="nav-links">
+                    <a href="#home" class="nav-item active" data-route="#home">
+                        <span class="material-symbols-rounded">home</span>
+                        <span>Início</span>
+                    </a>
+                    <a href="#catalog" class="nav-item" data-route="#catalog">
+                        <span class="material-symbols-rounded">menu_book</span>
+                        <span>Catálogo</span>
+                    </a>
+                    <a href="#shelf" class="nav-item" data-route="#shelf">
+                        <span class="material-symbols-rounded">bookmarks</span>
+                        <span>Minha Estante</span>
+                        <span id="shelf-count-badge" class="shelf-badge" style="${savedCount > 0 ? '' : 'display:none;'}">${savedCount}</span>
+                    </a>
+                </div>
             </div>
+
+            ${SearchBar()}
         </nav>
         
         <main id="main-content" class="container"></main>
 
-        <footer class="site-footer">
+        <div id="toast-container" class="toast-container"></div>
+
+        <footer class="site-footer" id="site-footer">
             <div class="footer-content">
-                <p>Cuidadosamente  Desenvolvimento por <strong><a href="https://github.com/Aaron-GMM" target="_blank">Aaron GMM</a></strong></p>
+                <p>Desenvolvido com dedicação por <strong><a href="https://github.com/Aaron-GMM" target="_blank" rel="noopener">Aaron GMM</a></strong></p>
                 <div class="footer-links">
-                    <a href="https://github.com/Aaron-GMM/biblioteca-dev" target="_blank"><span class="material-symbols-rounded">folder_open</span> Repositório Oficial</a>
-                    <button id="btn-pix" class="btn-pix"><span class="material-symbols-rounded">local_cafe</span> Pague um café ao Dev</button>
+                    <a href="https://github.com/Aaron-GMM/biblioteca-dev" target="_blank" rel="noopener">
+                        <span class="material-symbols-rounded">folder_open</span> Repositório Oficial
+                    </a>
+                    <button id="btn-pix" class="btn-pix">
+                        <span class="material-symbols-rounded">local_cafe</span> Pague um café ao Dev
+                    </button>
                 </div>
             </div>
         </footer>
@@ -31,7 +62,7 @@ export default function Layout() {
                 
                 <p style="text-align:center;"><strong>Chave PIX:</strong> aarongibran13@gmail.com</p>
                 
-                <button class="cute-btn" style="margin: 15px auto 0 auto; width: 100%; justify-content: center;" onclick="navigator.clipboard.writeText('00020126450014br.gov.bcb.pix0123aarongibran13@gmail.com5204000053039865802BR5925Aaron Gibran Moreira Mont6009Sao Paulo62290525REC69D017C62AB626941837576304E729'); alert('Código Copia e Cola copiado!');">
+                <button id="btn-copy-pix" class="cute-btn" style="margin: 15px auto 0 auto; width: 100%; justify-content: center;">
                     <span class="material-symbols-rounded">content_copy</span> Copiar Código PIX
                 </button>
             </div>
